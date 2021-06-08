@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.main-wrapper {
+	width: 100%;
+	max-width: 640px;
+	padding: 1em;
+	margin: 0 auto;
+	margin-top: 4.4375rem;
+}
+
+.main-content {
+	margin-top: 4.3125em;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	column-gap: 1.875rem;
+	// row-gap: 5.625rem;
+}
