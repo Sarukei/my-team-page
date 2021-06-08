@@ -8,6 +8,11 @@
 
 html {
 	box-sizing: border-box;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+	background: hsla(0, 0%, 98%, 1);
 }
 
 img {
