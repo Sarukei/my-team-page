@@ -26,6 +26,10 @@ img {
 	padding: 0 1.1875rem;
 	margin: 0 auto;
 	margin-top: 4.4375rem;
+
+	@include atMedium {
+		max-width: 57.5rem;
+	}
 }
 
 .main-content {
@@ -38,4 +42,10 @@ img {
 	grid-template-rows: repeat(3, 1fr);
 	column-gap: 1.875rem;
 	// row-gap: 5.625rem;
+
+	@include atMedium {
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		column-gap: 4.375rem;
+	}
 }

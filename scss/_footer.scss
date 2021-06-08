@@ -7,8 +7,11 @@
 
 	margin-top: 7.75rem;
 	padding: 1rem;
-
 	color: #a9a9a9;
+
+	@include atMedium {
+		margin-top: 6.25rem;
+	}
 
 	.username {
 		font-weight: 700;
