@@ -29,8 +29,7 @@
 		}
 	}
 
-	&:nth-child(2),
-	&:nth-child(5) {
+	&:nth-child(3n - 1) {
 		@include atMedium {
 			margin-top: 5.625rem;
 			align-self: end;

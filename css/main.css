@@ -133,7 +133,7 @@ img {
   }
 }
 @media screen and (min-width: 40em) {
-  .team-member:nth-child(2), .team-member:nth-child(5) {
+  .team-member:nth-child(3n-1) {
     margin-top: 5.625rem;
     -ms-flex-item-align: end;
         align-self: end;
