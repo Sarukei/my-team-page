@@ -10,6 +10,11 @@
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: #fafafa;
 }
 
 img {
@@ -107,4 +112,18 @@ img {
   font-weight: 600;
   font-size: 0.875rem;
   margin-top: 0.625rem;
+}
+
+.footer {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-top: 7.75rem;
+  padding: 1rem;
+  color: #a9a9a9;
+}
+.footer .username {
+  font-weight: 700;
+  color: #a9a9a9;
 }/*# sourceMappingURL=main.css.map */
